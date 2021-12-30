@@ -17,3 +17,15 @@
 .about-me {
     margin-top: 20px;
 }
+
+.project-linker {
+    margin-top: 800px;
+}
+
+.project-linker a {
+    color: black;
+}
+
+.contact-linker {
+    margin-top: 600px;
+}
