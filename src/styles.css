@@ -1,3 +1,11 @@
-.aboutMe {
-    background-color: crimson;
+.imprtLinks {
+    display: flex;
+}
+
+.imprtLinks > div {
+    margin-right: 20px;
+}
+
+.imprtLinks > .name {
+    font-size: 1em;
 }
