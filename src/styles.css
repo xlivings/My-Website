@@ -2,6 +2,8 @@
     display: flex;
     background-color: black;
     color: white;
+    transition: border-bottom 0.5s;
+    justify-content: space-between;
 }
 
 .nav-bar > div {
@@ -10,11 +12,29 @@
     font-size: 1.5em;
 }
 
+.nav-bar > .right-side {
+    display: flex;
+}
+
+.nav-bar > .right-side > div {
+    margin-right: 20px;
+}
+
 .nav-bar a {
+    color: gray;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-bar:hover {
+    border-bottom: 1px solid white;
+}
+
+.nav-bar a:hover {
     color: white;
 }
 
-.about-me {
+.about-linker {
     margin-top: 20px;
 }
 
