@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .nav-bar {
     display: flex;
     background-color: black;
@@ -35,7 +39,23 @@
 }
 
 .about-linker {
-    margin-top: 20px;
+    margin-top: 50px;
+    color: white;
+}
+
+.about-linker > .about-me-items {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-linker > .about-me-items > .my-image {
+    margin-left: 200px;
+}
+
+.about-linker > .about-me-items > .my-description {
+    margin-left: 50px;
+    margin-right: 200px;
 }
 
 .project-linker {
@@ -43,9 +63,10 @@
 }
 
 .project-linker a {
-    color: black;
+    color: white;
 }
 
 .contact-linker {
     margin-top: 600px;
+    color: white;
 }
