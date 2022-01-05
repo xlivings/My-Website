@@ -6,7 +6,6 @@ body {
     display: flex;
     background-color: black;
     color: white;
-    transition: border-bottom 0.5s;
     justify-content: space-between;
 }
 
@@ -20,6 +19,10 @@ body {
     display: flex;
 }
 
+.nav-bar > .left-side > .name {
+    margin-left: 20px;
+}
+
 .nav-bar > .right-side > div {
     margin-right: 20px;
 }
@@ -28,10 +31,6 @@ body {
     color: gray;
     text-decoration: none;
     transition: color 0.5s;
-}
-
-.nav-bar:hover {
-    border-bottom: 1px solid white;
 }
 
 .nav-bar a:hover {
